@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: #0b1220;
+    font-family: Arial, sans-serif;
+    color: #e5e7eb;
+}
+
+.header {
+    max-width: 1390px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 24px;
+    background-color: #111827;
+
+    margin: 24px auto 16px;
+    border-radius: 12px;
+    gap: 32px;
+}
+
+.logo img{
+    height: 32px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*wadah navigasi*/
+.nav {
+    display: flex;
+    align-items: normal;
+    gap: 24px;
+    margin-left: 32px;
+}
+
+/*item menu*/
+.nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #9ca3af;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*icon di dalam menu*/
+.nav a img {
+    width: 16px;
+    height: 16px;
+}
+
+.container {
+    display: flex;
+    padding: 24px;
+    gap: 24px;
+}
+
+.atm-section {
+    flex: 3;
+}
+
+.summary-section {
+    flex: 1;
+}
+
+.user {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user img {
+    width: 23px;
+    height: 23px;
+}
