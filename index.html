@@ -29,32 +29,83 @@
             <span>Job</span>
             </a>
 
-            <a> 
-                <img src="images/report.svg">
-            <span>Report</span>
-            </a>
+            <div class="report">
+                <a> 
+                    <img src="images/report.svg">
+                    <span>Report</span>
+                    <span class="arrow"></span>
+                </a>
 
-            <a>
-                <img src="images/settings.svg">
-                <span>Settings</span>
-            </a>
+            </div>
+
+            <div class="settings">
+                <a>
+                    <img src="images/settings.svg">
+                    <span>Settings</span>
+                    <span class="arrow"></span>
+                </a>
+
+            </div>
         </nav>
 
         <div class="user">
             <img src="images/User Icon.svg">
             <span>Administrator</span>
+            <span class="arrow"></span>
         </div>
 
         </header>
 
         <main class="container">
-            <section class="atm-section">
-                ATM GRID
-            </section>
+            <div class="page-wrapper">
+                <div class="top-bar">
+                <div class="page-title">
+                    <span class="title">ATM Dashboard</span>
+                    <span class="divider">|</span>
+                    <span class="subtitle">All City</span>
+                </div>
 
-            <aside class="summary-section">
-                SUMMARY
-            </aside>
-        </main>
-    </body>
+            <div class="top-actions">
+                <div class="segmented-control">
+                <button class="control-btn active">
+                    <img src="images/dashboard.svg">
+                    <span>Dashboard</span>
+                </button>
+                <button class="control-btn">
+                    <img src="images/map.svg">
+                    <span>Maps</span>
+                </button>
+            </div>
+            
+            <button class="filter">
+                <img src="images/filter.svg">
+                <span>filter</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <section class="atm-grid-card">
+            <div class="atm-grid">
+                <div class="atm-cell"></div>
+                <div class="atm-cell"></div>
+                <div class="atm-cell"></div>
+            </div>
+        </section>
+
+        <aside class="summary-panel">
+            <div class="summary-card">In Service</div>
+            <div class="summary-card">Loss com</div>
+            <div class="summary-card chart">Chart</div>
+            <div class="summary-card">New ATM</div>
+        </aside>
+    </div>
+</div>
+
+    <section class="atm-section">
+        ATM GRID
+    </section>
+
+</main>
+</body>
 </html>
